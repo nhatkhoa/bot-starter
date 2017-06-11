@@ -1,0 +1,11 @@
+apps:
+  - script   : index.js
+    instances: 4
+    watch  : true
+    env:
+      HOST: 0.0.0.0
+      PORT: 443
+      DEBUG: kaira:*
+      MICROSOFT_APP_ID: e6a4e877-dbd5-4aa9-8a6e-ec2d8f44b8f6
+      MICROSOFT_APP_PASSWORD: LvutRU6dUrpgjn2PygpOHTJ
+      WIT_TOKEN: NMPTRW23D6XX6ILXM4K3ORSXM3FIXVJT
